@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3060645351fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/PC_next" type="array">
+      <obj_property name="ElementShortName">PC_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/register_file1/RF_data" type="array">
+      <obj_property name="ElementShortName">RF_data[31:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_data[31:1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Controller1/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Controller1/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Controller1/MemtoReg" type="array">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Mem_data" type="array">
+      <obj_property name="ElementShortName">Mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/RFWrite_data" type="array">
+      <obj_property name="ElementShortName">RFWrite_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RFWrite_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALUSrcA" type="array">
+      <obj_property name="ElementShortName">ALUSrcA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALU_out" type="array">
+      <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALU_in1" type="array">
+      <obj_property name="ElementShortName">ALU_in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALU_in2" type="array">
+      <obj_property name="ElementShortName">ALU_in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Controller1/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/OpCode" type="array">
+      <obj_property name="ElementShortName">OpCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">OpCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Shamt" type="array">
+      <obj_property name="ElementShortName">Shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/Funct" type="array">
+      <obj_property name="ElementShortName">Funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/PCWrite" type="logic">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/PCWriteCond" type="logic">
+      <obj_property name="ElementShortName">PCWriteCond</obj_property>
+      <obj_property name="ObjectShortName">PCWriteCond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/IorD" type="logic">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/IRWrite" type="logic">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/MemtoReg" type="array">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ExtOp" type="logic">
+      <obj_property name="ElementShortName">ExtOp</obj_property>
+      <obj_property name="ObjectShortName">ExtOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/LuiOp" type="logic">
+      <obj_property name="ElementShortName">LuiOp</obj_property>
+      <obj_property name="ObjectShortName">LuiOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALUSrcA" type="array">
+      <obj_property name="ElementShortName">ALUSrcA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALUSrcB" type="array">
+      <obj_property name="ElementShortName">ALUSrcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/MultiCycleCPU_1/PCSource" type="array">
+      <obj_property name="ElementShortName">PCSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSource[1:0]</obj_property>
+   </wvobject>
+</wave_config>
